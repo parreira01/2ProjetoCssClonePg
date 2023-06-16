@@ -1,0 +1,153 @@
+
+*{
+    Padding: 1px;
+    Margin: 2px;
+    Vertical-align: baseline;
+    List-style:none;
+    Border: 0;
+    }
+    
+
+body {
+    background: white;
+    display: flex;
+   }
+
+.cabecalho {
+    width: 100%;
+    height: 3.5rem;
+    padding: 1px;
+    margin: 1px;
+    border: 1px solid black;
+    background: white;
+    background-attachment: fixed;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    align-items: center;
+            
+}
+
+#menu {
+    border: none;
+    width: 2rem;
+    height: 1.5rem;
+    padding: 2px;
+    margin-top: 1px;
+    align-items: center;    
+}
+
+#LogoYoutube {
+    border: none;
+    width: 6rem;
+    height: 1.5rem;
+    padding: 2px;
+    margin-top: 1px;
+}
+
+#busca {
+    box-sizing: border-box;
+    margin-top: 1px;
+
+    position: absolute;
+    width: 348px;
+    height: 40px;
+    left: 526px;
+    top: 8px;
+
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+}
+
+#procurar {
+    box-sizing: border-box;
+    margin: 1px;
+
+    position: absolute;
+    width: 57px;
+    height: 40px;
+    right: 432px;
+    top: 8px;
+    align-self: center;
+
+    background: #F8F8F8;
+    border: 1px solid #CCCCCC;
+}
+
+#video {
+    box-sizing: border-box;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+
+    position: absolute ;
+    width: 40px;
+    height: 40px;
+    right: 200px;
+    top: 9px;
+    
+    
+
+    background: none;
+    border: none;
+}
+
+#notificacao {
+    box-sizing: border-box;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+
+    position: absolute ;
+    width: 40px;
+    height: 40px;
+    right: 140px;
+    top: 9px;
+    
+    
+
+    background: none;
+    border: none;
+}
+
+.cabecalho > #avatar {
+    position: absolute;
+    
+    object-fit:fill;
+    object-position:right;
+    
+}
+
+#avatar {
+    box-sizing: border-box;
+    display: flex;
+    margin-left: auto;
+    padding: 0;
+   
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 70px;
+    
+    
+    
+    background-image: url(/Imagens/avatar.png) none;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+        
+    border: none;
+    border-radius: 50%;
+
+    justify-items: center;
+      
+}
+
+
+#avatar1 {
+    
+    background-size: 100%;
+    background-origin: border-box;
+       
+    border-radius: 50%;
+     
+}
